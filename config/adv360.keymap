@@ -31,6 +31,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/mouse.h>
 
 &mt {
     tapping-term-ms = <210>;
@@ -122,11 +123,11 @@
 
 		navigation {
 			bindings = <
-				&mt HYPER  EQUAL            &kp N1     &kp N2      &kp N3     &kp N4    &kp N5             &tog 1      &mo 3     &kp N6     &kp N7     &kp N8     &kp N9    &kp N0  &mt HYPER MINUS
-				&kp TAB  &kp SINGLE_QUOTE  &kp COMMA  &kp PERIOD      &kp P     &kp X              &trans      &trans      &kp MEH(F)      &kp MEH(G)      &kp MEH(C)      &kp MEH(R)     &kp MEH(L)  &kp SLASH
-				&kp ESC     &kp MEH(A)      &kp MEH(O)       &kp MEH(E)      &kp MEH(U)     &kp I              &trans  &mt LGUI ESC   &kp LCTRL                        &kp RCTRL  &kp RGUI      &trans     &kp MEH(D)   &kp MEH(H)   &kp MEH(T)   &kp MEH(N)   &kp MEH(S)  &kp BACKSLASH
-				&kp LSHFT     &kp MEH(SEMICOLON)      &kp MEH(Q)       &kp MEH(J)      &kp MEH(K)     &kp X              &none      &none   &mt LALT HOME      &none      &none  &mt RALT PG_UP     &none      &none     &kp MEH(B)   &kp MEH(M)   &kp MEH(W)   &kp MEH(V)   &kp MEH(Z)      &kp RSHFT
-				MO_TOG(FN)         &kp GRAVE   &kp CAPS    &kp LEFT  &kp RIGHT  &kp BSPC            &lt 2 DEL    &kp END  &kp PG_DN  &kp MEH(R)  &kp MEH(L)     &kp UP  &kp DOWN   &kp LBKT  &kp RBKT   &mo FN
+				&none  &none     &none      &none     &none    &none             &none      &none     &none     &none     &none     &none    &none  &none
+				&none  &none  &none  &none      &none     &none              &trans      &trans      &mwh SCROLL_UP       &mwh SCROLL_LEFT      &mmv MOVE_UP    &mwh SCROLL_RIGHT     &none  &none
+				&none     &none      &mkp RCLK       &none      &mkp LCLK     &none              &trans  &mt LGUI ESC   &kp LCTRL                        &kp RCTRL  &kp RGUI      &trans     &mwh SCROLL_DOWN   &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &kp MEH(S)  &kp BACKSLASH
+				&kp LSHFT     &none      &none       &none      &none     &none              &none      &none   &mt LALT HOME      &none      &none  &mt RALT PG_UP     &none      &none     &none   &none   &none   &none   &none      &kp RSHFT
+				&none         &none   &none    &kp LEFT  &kp RIGHT  &kp BSPC            &lt 2 DEL    &kp END  &kp PG_DN  &none  &none     &kp UP  &kp DOWN   &none  &none   &none
 				>;
 		};
 	};
