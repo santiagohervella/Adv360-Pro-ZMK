@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-   &kp ESCAPE            &kp N1     &kp N2       &kp N3   &kp N4                      &kp N5            &none     &mo 3  &kp N6     &kp N7     &kp N8    &kp N9    &kp N0  &kp BACKSLASH
-      &kp TAB  &kp SINGLE_QUOTE  &kp COMMA   &kp PERIOD    &kp P                       &kp Y            &none     &none   &kp F      &kp G      &kp C     &kp R     &kp L      &kp SLASH
- &lt 4 ESCAPE             &kp A      &kp O        &kp E    &kp U                       &kp I            &none  &kp LCMD   &mo 4                           &mo 3  &kp RCMD          &none   &kp D   &kp H   &kp T   &kp N   &kp S  &kp MINUS
-    &kp LSHFT     &kp SEMICOLON      &kp Q        &kp J    &kp K                       &kp X            &none     &none   &mo 3      &none      &none  &kp RALT     &none          &none   &kp B   &kp M   &kp W   &kp V   &kp Z  &kp RSHFT
-        &mo 2             &none      &none  &kp LS(TAB)  &kp TAB  &mt LEFT_CONTROL BACKSPACE            &mo 1     &mo 4   &none  &kp ENTER  &kp SPACE     &none     &none          &none   &none   &mo 2
+   &kp ESCAPE            &kp N1     &kp N2       &kp N3   &kp N4                      &kp N5            &none     &mo 3     &kp N6     &kp N7     &kp N8    &kp N9    &kp N0  &kp BACKSLASH
+      &kp TAB  &kp SINGLE_QUOTE  &kp COMMA   &kp PERIOD    &kp P                       &kp Y            &none     &none      &kp F      &kp G      &kp C     &kp R     &kp L      &kp SLASH
+ &lt 4 ESCAPE             &kp A      &kp O        &kp E    &kp U                       &kp I            &mo 4  &kp LCMD      &mo 3                           &mo 3  &kp RCMD          &none   &kp D   &kp H   &kp T   &kp N   &kp S  &kp MINUS
+    &kp LSHFT     &kp SEMICOLON      &kp Q        &kp J    &kp K                       &kp X            &none     &none      &mo 4      &none      &none  &kp RALT     &none          &none   &kp B   &kp M   &kp W   &kp V   &kp Z  &kp RSHFT
+        &mo 2             &none      &none  &kp LS(TAB)  &kp TAB  &mt LEFT_CONTROL BACKSPACE            &mo 1     &mo 3  &kp RCTRL  &kp ENTER  &kp SPACE     &none     &none          &none   &none   &mo 2
             >;
         };
 
